@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07AAC38A28A8D25D003F62A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43391D8128A6880D001B6F48 /* main.cpp */; };
+		07AAC39D28A8DEE5003F62A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07AAC39C28A8DEE5003F62A5 /* main.cpp */; };
+		07AAC3A828ACADCC003F62A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07AAC3A728ACADCC003F62A5 /* main.cpp */; };
+		07AAC3B328ACBB7F003F62A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07AAC3B228ACBB7F003F62A5 /* main.cpp */; };
+		07AAC3BE28AE2F4A003F62A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07AAC3BD28AE2F4A003F62A5 /* main.cpp */; };
 		43391D7728A53027001B6F48 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43391D7628A53027001B6F48 /* main.cpp */; };
-		43391D8228A6880D001B6F48 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43391D8128A6880D001B6F48 /* main.cpp */; };
 		43570B10286DD1F1006719C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43570B0F286DD1F1006719C4 /* main.cpp */; };
 		43570B1D286DD22F006719C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43570B1C286DD22F006719C4 /* main.cpp */; };
 		43570B28286F27D5006719C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43570B27286F27D5006719C4 /* main.cpp */; };
@@ -61,6 +65,51 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		07AAC38D28A8DBAB003F62A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		07AAC39828A8DEE5003F62A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		07AAC3A328ACADCC003F62A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		07AAC3AE28ACBB7F003F62A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		07AAC3B928AE2F4A003F62A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		43391D7228A53027001B6F48 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -523,6 +572,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07AAC38F28A8DBAB003F62A5 /* paper cutting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "paper cutting"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AAC39A28A8DEE5003F62A5 /* 情报 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "情报"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AAC39C28A8DEE5003F62A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		07AAC3A528ACADCC003F62A5 /* Message from Aliens */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Message from Aliens"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AAC3A728ACADCC003F62A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		07AAC3B028ACBB7F003F62A5 /* Paper Cutting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Paper Cutting"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AAC3B228ACBB7F003F62A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		07AAC3BB28AE2F4A003F62A5 /* 文字改革 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "文字改革"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AAC3BD28AE2F4A003F62A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		43391D7428A53027001B6F48 /* ISBN编码 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ISBN编码"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43391D7628A53027001B6F48 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		43391D7F28A6880C001B6F48 /* 密码复原 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "密码复原"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -628,6 +686,41 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		07AAC38C28A8DBAB003F62A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AAC39728A8DEE5003F62A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AAC3A228ACADCC003F62A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AAC3AD28ACBB7F003F62A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AAC3B828AE2F4A003F62A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43391D7128A53027001B6F48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -988,6 +1081,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07AAC39B28A8DEE5003F62A5 /* 情报 */ = {
+			isa = PBXGroup;
+			children = (
+				07AAC39C28A8DEE5003F62A5 /* main.cpp */,
+			);
+			path = "情报";
+			sourceTree = "<group>";
+		};
+		07AAC3A628ACADCC003F62A5 /* Message from Aliens */ = {
+			isa = PBXGroup;
+			children = (
+				07AAC3A728ACADCC003F62A5 /* main.cpp */,
+			);
+			path = "Message from Aliens";
+			sourceTree = "<group>";
+		};
+		07AAC3B128ACBB7F003F62A5 /* Paper Cutting */ = {
+			isa = PBXGroup;
+			children = (
+				07AAC3B228ACBB7F003F62A5 /* main.cpp */,
+			);
+			path = "Paper Cutting";
+			sourceTree = "<group>";
+		};
+		07AAC3BC28AE2F4A003F62A5 /* 文字改革 */ = {
+			isa = PBXGroup;
+			children = (
+				07AAC3BD28AE2F4A003F62A5 /* main.cpp */,
+			);
+			path = "文字改革";
+			sourceTree = "<group>";
+		};
 		43391D7528A53027001B6F48 /* ISBN编码 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1058,6 +1183,10 @@
 				43E5809528A3A0B900836A74 /* 高精度除法 */,
 				43391D7528A53027001B6F48 /* ISBN编码 */,
 				43391D8028A6880C001B6F48 /* 密码复原 */,
+				07AAC39B28A8DEE5003F62A5 /* 情报 */,
+				07AAC3A628ACADCC003F62A5 /* Message from Aliens */,
+				07AAC3B128ACBB7F003F62A5 /* Paper Cutting */,
+				07AAC3BC28AE2F4A003F62A5 /* 文字改革 */,
 				43570B0D286DD1F1006719C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1116,6 +1245,11 @@
 				43E5809428A3A0B900836A74 /* 高精度乘法 */,
 				43391D7428A53027001B6F48 /* ISBN编码 */,
 				43391D7F28A6880C001B6F48 /* 密码复原 */,
+				07AAC38F28A8DBAB003F62A5 /* paper cutting */,
+				07AAC39A28A8DEE5003F62A5 /* 情报 */,
+				07AAC3A528ACADCC003F62A5 /* Message from Aliens */,
+				07AAC3B028ACBB7F003F62A5 /* Paper Cutting */,
+				07AAC3BB28AE2F4A003F62A5 /* 文字改革 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1515,6 +1649,91 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		07AAC38E28A8DBAB003F62A5 /* paper cutting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AAC39328A8DBAB003F62A5 /* Build configuration list for PBXNativeTarget "paper cutting" */;
+			buildPhases = (
+				07AAC38B28A8DBAB003F62A5 /* Sources */,
+				07AAC38C28A8DBAB003F62A5 /* Frameworks */,
+				07AAC38D28A8DBAB003F62A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "paper cutting";
+			productName = "paper cutting";
+			productReference = 07AAC38F28A8DBAB003F62A5 /* paper cutting */;
+			productType = "com.apple.product-type.tool";
+		};
+		07AAC39928A8DEE5003F62A5 /* 情报 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AAC39E28A8DEE5003F62A5 /* Build configuration list for PBXNativeTarget "情报" */;
+			buildPhases = (
+				07AAC39628A8DEE5003F62A5 /* Sources */,
+				07AAC39728A8DEE5003F62A5 /* Frameworks */,
+				07AAC39828A8DEE5003F62A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "情报";
+			productName = "情报";
+			productReference = 07AAC39A28A8DEE5003F62A5 /* 情报 */;
+			productType = "com.apple.product-type.tool";
+		};
+		07AAC3A428ACADCC003F62A5 /* Message from Aliens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AAC3A928ACADCC003F62A5 /* Build configuration list for PBXNativeTarget "Message from Aliens" */;
+			buildPhases = (
+				07AAC3A128ACADCC003F62A5 /* Sources */,
+				07AAC3A228ACADCC003F62A5 /* Frameworks */,
+				07AAC3A328ACADCC003F62A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Message from Aliens";
+			productName = "Message from Aliens";
+			productReference = 07AAC3A528ACADCC003F62A5 /* Message from Aliens */;
+			productType = "com.apple.product-type.tool";
+		};
+		07AAC3AF28ACBB7F003F62A5 /* Paper Cutting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AAC3B428ACBB7F003F62A5 /* Build configuration list for PBXNativeTarget "Paper Cutting" */;
+			buildPhases = (
+				07AAC3AC28ACBB7F003F62A5 /* Sources */,
+				07AAC3AD28ACBB7F003F62A5 /* Frameworks */,
+				07AAC3AE28ACBB7F003F62A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Paper Cutting";
+			productName = "Paper Cutting";
+			productReference = 07AAC3B028ACBB7F003F62A5 /* Paper Cutting */;
+			productType = "com.apple.product-type.tool";
+		};
+		07AAC3BA28AE2F4A003F62A5 /* 文字改革 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AAC3BF28AE2F4A003F62A5 /* Build configuration list for PBXNativeTarget "文字改革" */;
+			buildPhases = (
+				07AAC3B728AE2F4A003F62A5 /* Sources */,
+				07AAC3B828AE2F4A003F62A5 /* Frameworks */,
+				07AAC3B928AE2F4A003F62A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "文字改革";
+			productName = "文字改革";
+			productReference = 07AAC3BB28AE2F4A003F62A5 /* 文字改革 */;
+			productType = "com.apple.product-type.tool";
+		};
 		43391D7328A53027001B6F48 /* ISBN编码 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43391D7A28A53027001B6F48 /* Build configuration list for PBXNativeTarget "ISBN编码" */;
@@ -2391,6 +2610,21 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					07AAC38E28A8DBAB003F62A5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					07AAC39928A8DEE5003F62A5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					07AAC3A428ACADCC003F62A5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					07AAC3AF28ACBB7F003F62A5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					07AAC3BA28AE2F4A003F62A5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					43391D7328A53027001B6F48 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -2610,11 +2844,55 @@
 				43E5809328A3A0B900836A74 /* 高精度乘法 */,
 				43391D7328A53027001B6F48 /* ISBN编码 */,
 				43391D7E28A6880C001B6F48 /* 密码复原 */,
+				07AAC38E28A8DBAB003F62A5 /* paper cutting */,
+				07AAC39928A8DEE5003F62A5 /* 情报 */,
+				07AAC3A428ACADCC003F62A5 /* Message from Aliens */,
+				07AAC3AF28ACBB7F003F62A5 /* Paper Cutting */,
+				07AAC3BA28AE2F4A003F62A5 /* 文字改革 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		07AAC38B28A8DBAB003F62A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AAC39628A8DEE5003F62A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AAC39D28A8DEE5003F62A5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AAC3A128ACADCC003F62A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AAC3A828ACADCC003F62A5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AAC3AC28ACBB7F003F62A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AAC3B328ACBB7F003F62A5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AAC3B728AE2F4A003F62A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AAC3BE28AE2F4A003F62A5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43391D7028A53027001B6F48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2627,7 +2905,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43391D8228A6880D001B6F48 /* main.cpp in Sources */,
+				07AAC38A28A8D25D003F62A5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3026,6 +3304,116 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		07AAC39428A8DBAB003F62A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YVN26P2DH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07AAC39528A8DBAB003F62A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YVN26P2DH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07AAC39F28A8DEE5003F62A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YVN26P2DH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07AAC3A028A8DEE5003F62A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YVN26P2DH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07AAC3AA28ACADCC003F62A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YVN26P2DH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07AAC3AB28ACADCC003F62A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YVN26P2DH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07AAC3B528ACBB7F003F62A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YVN26P2DH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07AAC3B628ACBB7F003F62A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YVN26P2DH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07AAC3C028AE2F4A003F62A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YVN26P2DH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07AAC3C128AE2F4A003F62A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YVN26P2DH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		43391D7828A53027001B6F48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4044,6 +4432,51 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		07AAC39328A8DBAB003F62A5 /* Build configuration list for PBXNativeTarget "paper cutting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AAC39428A8DBAB003F62A5 /* Debug */,
+				07AAC39528A8DBAB003F62A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07AAC39E28A8DEE5003F62A5 /* Build configuration list for PBXNativeTarget "情报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AAC39F28A8DEE5003F62A5 /* Debug */,
+				07AAC3A028A8DEE5003F62A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07AAC3A928ACADCC003F62A5 /* Build configuration list for PBXNativeTarget "Message from Aliens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AAC3AA28ACADCC003F62A5 /* Debug */,
+				07AAC3AB28ACADCC003F62A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07AAC3B428ACBB7F003F62A5 /* Build configuration list for PBXNativeTarget "Paper Cutting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AAC3B528ACBB7F003F62A5 /* Debug */,
+				07AAC3B628ACBB7F003F62A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07AAC3BF28AE2F4A003F62A5 /* Build configuration list for PBXNativeTarget "文字改革" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AAC3C028AE2F4A003F62A5 /* Debug */,
+				07AAC3C128AE2F4A003F62A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		43391D7A28A53027001B6F48 /* Build configuration list for PBXNativeTarget "ISBN编码" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -31,7 +31,16 @@ int main(int argc, const char * argv[]) {
         for(int i=0;i<s.size()-1;i++){
             cout<<s[i];
         }
-        cout<<count%11<<endl;
+        if(count%11==10){
+            cout<<'X'<<endl;
+        }
+        else{
+            if(count%11==10){
+                cout<<'x'<<endl;
+            }
+            else
+                cout<<count%11<<endl;;
+        }
     }
     return 0;
 }
